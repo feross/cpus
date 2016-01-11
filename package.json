@@ -1,0 +1,44 @@
+{
+  "name": "cpus",
+  "description": "`os.cpus()` for node and the browser",
+  "version": "0.0.0",
+  "author": {
+    "name": "Feross Aboukhadijeh",
+    "email": "feross@feross.org",
+    "url": "http://feross.org/"
+  },
+  "browser": "browser.js",
+  "bugs": {
+    "url": "https://github.com/feross/cpus/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "standard": "^5.1.0",
+    "tape": "^4.0.0",
+    "zuul": "^3.0.0"
+  },
+  "homepage": "http://feross.org",
+  "keywords": [
+    "browser",
+    "browserify",
+    "concurrency",
+    "cpu info",
+    "cpus",
+    "hardware concurrency",
+    "hardwareConcurrency",
+    "navigator.hardwareConcurrency",
+    "num cpus"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/feross/cpus.git"
+  },
+  "scripts": {
+    "test": "standard && npm run test-node && npm run test-browser",
+    "test-browser": "zuul -- test/*.js",
+    "test-browser-local": "zuul --local -- test/*.js",
+    "test-node": "tape test/*.js"
+  }
+}

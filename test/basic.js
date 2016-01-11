@@ -1,0 +1,15 @@
+var test = require('tape')
+var cpus = require('../')
+
+test('basic usage', function (t) {
+  t.ok(Array.isArray(cpus()))
+  t.ok(cpus().length >= 1)
+  t.equal(typeof cpus()[0].model, 'string')
+  t.equal(typeof cpus()[0].speed, 'number')
+  t.equal(typeof cpus()[0].times.user, 'number')
+  t.equal(typeof cpus()[0].times.nice, 'number')
+  t.equal(typeof cpus()[0].times.sys, 'number')
+  t.equal(typeof cpus()[0].times.idle, 'number')
+  t.equal(typeof cpus()[0].times.irq, 'number')
+  t.end()
+})
