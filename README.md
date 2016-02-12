@@ -4,11 +4,11 @@
 
 [![saucelabs][saucelabs-image]][saucelabs-url]
 
-[travis-image]: https://img.shields.io/travis/feross/cpus/master.svg?style=flat
+[travis-image]: https://img.shields.io/travis/feross/cpus/master.svg
 [travis-url]: https://travis-ci.org/feross/cpus
-[npm-image]: https://img.shields.io/npm/v/cpus.svg?style=flat
+[npm-image]: https://img.shields.io/npm/v/cpus.svg
 [npm-url]: https://npmjs.org/package/cpus
-[downloads-image]: https://img.shields.io/npm/dm/cpus.svg?style=flat
+[downloads-image]: https://img.shields.io/npm/dm/cpus.svg
 [saucelabs-image]: https://saucelabs.com/browser-matrix/cpus.svg
 [saucelabs-url]: https://saucelabs.com/u/cpus
 
