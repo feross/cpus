@@ -1,5 +1,7 @@
 # cpus [![travis][travis-image]][travis-url] [![npm][npm-image]][npm-url] [![downloads][downloads-image]][downloads-url] [![javascript style guide][standard-image]][standard-url]
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/feross/cpus.svg)](https://greenkeeper.io/)
+
 [travis-image]: https://img.shields.io/travis/feross/cpus/master.svg
 [travis-url]: https://travis-ci.org/feross/cpus
 [npm-image]: https://img.shields.io/npm/v/cpus.svg
