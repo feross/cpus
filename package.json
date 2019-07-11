@@ -14,7 +14,7 @@
   "dependencies": {},
   "devDependencies": {
     "airtap": "0.0.7",
-    "standard": "*",
+    "standard": ">=13.0.1",
     "tape": "^4.0.0"
   },
   "homepage": "http://feross.org",
